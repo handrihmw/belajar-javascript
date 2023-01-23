@@ -4,13 +4,13 @@ Ini menampilkan sintaks yang lebih pendek tetapi mirip dengan fungsi konvensiona
 Berikut adalah contoh fungsi reguler dan arrow function yang melakukan hal yang sama:
 
 ```javascript
-    // Regular Function
-    function add(a, b) {
-        return a + b;
-    }
+// Regular Function
+function add(a, b) {
+    return a + b
+}
 
-    // Arrow Function
-    const add = (a, b) => a + b; 
+// Arrow Function
+const add = (a, b) => a + b
 ```
 
 Saat berhadapan dengan fungsi tingkat tinggi, arrow function dapat membantu Anda menulis kode yang lebih ringkas _(fungsi yang menggunakan fungsi lain sebagai argumen)._
@@ -18,15 +18,15 @@ Saat berhadapan dengan fungsi tingkat tinggi, arrow function dapat membantu Anda
 Anda dapat melihat cara menggabungkan fungsi standar dengan arrow function menggunakan metode map array dalam contoh ini:
 
 ```javascript
-    // Regular Function
-    const numbers = [1, 2, 3, 4, 5];
-    const double  = numbers.map(function(number) {
-        return number * 2;
-    });
+// Regular Function
+const numbers = [1, 2, 3, 4, 5]
+const double  = numbers.map(function(number) {
+    return number * 2
+})
 
-    // Arrow Function
-    const numbers = [1, 2, 3, 4, 5];
-    const double  = numbers.map(number => number * 2);
+// Arrow Function
+const numbers = [1, 2, 3, 4, 5]
+const double  = numbers.map(number => number * 2)
 ```
 
 Fakta bahwa arrow function tidak memiliki nilai `this` sendiri adalah manfaat lain dari penggunaannya.
@@ -39,41 +39,44 @@ Berikut adalah beberapa contoh arrow function:
 #### 1. Basic Arrow Function yang tidak menerima argumen apa pun dan memiliki block body.
 
 ```javascript
-    // Basic Syntax
-    const func = () => {
-        // function body
-    }
+// Basic Syntax
+const func = () => {
+    // function body
+}
 ```
 
 #### 2. Arrow Function yang tidak menerima argumen apa pun dan memiliki pengembalian implisit.
 
 ```javascript
-    // Implicit Return
-    const func = () => 'Hello World!'
+// Implicit Return
+const func = () => 'Hello World!'
 ```
 #### 3. Arrow function yang mengambil argumen tunggal dan memiliki badan blok dengan pengembalian eksplisit.
 
 ```javascript
-    // Single Argument
-    const func = x => {
-        return x * 2
-    }
+// Single Argument
+const func = x => {
+    return x * 2
+}
 ```
 
 #### 4. Arrow Function bergaya blok multi-argumen dengan pengembalian eksplisit.
 
 ```javascript
-    // Multiple Arguments
-    const func = (x, y) => {
-        return x + y
-    }
+// Multiple Arguments
+const func = (x, y) => {
+    return x + y
+}
 ```
 
 #### 5. Arrow Function dengan badan blok dan pernyataan log konsol tetapi tanpa argumen.
 
 ```javascript
-    // No Arguments
-    const func = () => {
-        console.log('Hello World!')
-    }
+// No Arguments
+const func = () => {
+    console.log('Hello World!')
+}
 ```
+
+> References:
+- `https://twitter.com/csaba_kissi/status/1612086728151519232`
