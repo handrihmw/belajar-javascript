@@ -1,20 +1,17 @@
 <p align="center">
-    <img src="/Assets/js.webp" alt="javascript" title="javascript">
+    <img src="/Assets/js.webp" height="200" width="200" loading="lazy" alt="javascript">
 </p>
-<br>
 
 <h1 align="center">
-# Belajar Javascript
+Belajar Javascript
 </h1>
 
-Repository ini dibuat untuk dokumentasi belajar javascript yang di ambil dari beberapa resource. Sebagai panduan untuk menjadi developer yang lebih baik lagi kedepannya.
+_Repository_ ini dibuat untuk dokumentasi belajar javascript yang di ambil dari beberapa resource. Sebagai panduan untuk menjadi developer yang lebih baik lagi kedepannya. Jika ada masukan atau ide buat menambahkan contoh kode atau penjelasan bisa hubungi Source 1](https://twitter.com/handrihmw "@handrihmw")
 
----
+### Table of Contents
 
-## Table of Contents
-
-- #### Arrow Function
-- ####  Data Types
-- ####  Event Listener
-- ####  Math Methods
-- ####  String Methods
+1. [Arrow Function](#)
+2. [Data Types](#)
+3. [Event Listener](#)
+4. [Math Methods](#)
+5. [String Methods](#)
