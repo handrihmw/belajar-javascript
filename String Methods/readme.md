@@ -1,5 +1,16 @@
+Table of Contents:
+
+- [length()](#1-length--)
+- [indexOf()](#2-indexof--)
+- [substring()](#3-substring--)
+- [replace()](#4-replace--)
+- [charAt()](#5-charat--)
+- [concat()](#6-concat--)
+- [includes()](#7-includes--)
+- [endsWith()](#8-endswith--)
+
 #### 1. length()
-Metode _length()_ mengembalikan panjang string
+Metode `length()` mengembalikan panjang string
 
 ```javascript
 let str = "Hello World";
@@ -10,7 +21,7 @@ console.log(str.length);
 ```
 
 #### 2. indexOf() 
-Metode _indexOf()_ mencari nilai tertentu dalam string dan mengembalikan posisi kecocokan.
+Metode `indexOf()` mencari nilai tertentu dalam string dan mengembalikan posisi kecocokan.
 
 ```javascript
 let str = "Hello World";
@@ -21,7 +32,7 @@ console.log(str.indexOf("World"));
 ```
 
 #### 3. substring()
-Metode _substring()_ mengekstrak karakter dari string antara dua indeks yang ditentukan, dan mengembalikan sub-string baru.
+Metode `substring()` mengekstrak karakter dari string antara dua indeks yang ditentukan, dan mengembalikan sub-string baru.
 
 ```javascript
 let str = "Hello World";
@@ -32,7 +43,7 @@ console.log(str.substring(6, 11));
 ```
 
 #### 4. replace()
-Metode _replace()_ mencari string untuk nilai tertentu dan menggantinya dengan nilai baru.
+Metode `replace()` mencari string untuk nilai tertentu dan menggantinya dengan nilai baru.
 
 ```javascript
 let str = "Hello World";
@@ -43,7 +54,7 @@ console.log(str.replace("World", "there"));
 ```
 
 #### 5. charAt()
-Metode _charAt()_ mengembalikan karakter pada indeks yang ditentukan dalam sebuah string.
+Metode `charAt()` mengembalikan karakter pada indeks yang ditentukan dalam sebuah string.
 
 ```javascript
 let str = 'Hello World';
@@ -54,7 +65,7 @@ console.log(str.charAt(0)) ;
 ```
 
 #### 6. concat()
-Metode _concat()_ menggabungkan dua atau lebih string dan mengembalikan string baru.
+Metode `concat()` menggabungkan dua atau lebih string dan mengembalikan string baru.
 
 ```javascript
 let str1 = 'Hello';
@@ -66,7 +77,7 @@ console.log(str1.concat(' ', str2));
 ```
 
 #### 7. includes()
-Metode _include()_ memeriksa apakah suatu string berisi string/karakter tertentu.
+Metode `include()` memeriksa apakah suatu string berisi string/karakter tertentu.
 
 ```javascript
 let str = 'Hello World';
@@ -77,7 +88,7 @@ console.log(str.includes('World')) ;
 ```
 
 #### 8. endsWith()
-Metode _endsWith()_ memeriksa apakah sebuah string diakhiri dengan karakter dari string yang ditentukan, mengembalikan benar atau salah.
+Metode `endsWith()` memeriksa apakah sebuah string diakhiri dengan karakter dari string yang ditentukan, mengembalikan benar atau salah.
 
 ```javascript
 let str = 'Hello World';
@@ -87,5 +98,8 @@ console.log(str.endsWith('orld'));
 // Output: true
 ```
 
+
+
+
 > References:
-- `https://twitter.com/csaba_kissi/status/1604130799661584386`
+- [Source 1](https://twitter.com/csaba_kissi/status/1604130799661584386 "Source 1")

@@ -88,5 +88,8 @@ console.log(Math.trunc(4.7))
 // Output: 4
 ```
 
+
+
+
 > References:
-- `https://twitter.com/csaba_kissi/status/1611013698134458368`
+- [Source 1](https://twitter.com/csaba_kissi/status/1611013698134458368 "Source 1")
