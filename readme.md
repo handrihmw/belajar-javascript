@@ -6,7 +6,7 @@
 Belajar Javascript
 </h1>
 
-_Repository_ ini dibuat untuk dokumentasi belajar javascript yang di ambil dari beberapa resource. Sebagai panduan untuk menjadi developer yang lebih baik lagi kedepannya. Jika ada masukan atau ide buat menambahkan contoh kode atau penjelasan bisa hubungi Source 1](https://twitter.com/handrihmw "@handrihmw")
+_Repository_ ini dibuat untuk dokumentasi belajar javascript yang di ambil dari beberapa resource. Sebagai panduan untuk menjadi developer yang lebih baik lagi kedepannya. Jika ada masukan atau ide buat menambahkan contoh kode atau penjelasan bisa hubungi [@handrihmw](https://twitter.com/handrihmw)
 
 ### Table of Contents
 
