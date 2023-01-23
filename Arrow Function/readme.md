@@ -36,6 +36,15 @@ Dalam keadaan tertentu, ini dapat membuatnya lebih mudah untuk bekerja dengan `t
 
 Berikut adalah beberapa contoh arrow function:
 
+### Table of Contents:
+
+- [Basic Arrow Function yang tidak menerima argumen apa pun dan memiliki block body.](#1-basic-arrow-function-yang-tidak-menerima-argumen-apa-pun-dan-memiliki-block-body)
+- [Arrow Function yang tidak menerima argumen apa pun dan memiliki pengembalian implisit.](#2-arrow-function-yang-tidak-menerima-argumen-apa-pun-dan-memiliki-pengembalian-implisit)
+- [Arrow function yang mengambil argumen tunggal dan memiliki badan blok dengan pengembalian eksplisit.](#3-arrow-function-yang-mengambil-argumen-tunggal-dan-memiliki-badan-blok-dengan-pengembalian-eksplisit)
+- [Arrow Function bergaya blok multi-argumen dengan pengembalian eksplisit.](#4-arrow-function-bergaya-blok-multi-argumen-dengan-pengembalian-eksplisit)
+- [Arrow Function dengan badan blok dan pernyataan log konsol tetapi tanpa argumen.](#5-arrow-function-dengan-badan-blok-dan-pernyataan-log-konsol-tetapi-tanpa-argumen)
+
+
 #### 1. Basic Arrow Function yang tidak menerima argumen apa pun dan memiliki block body.
 
 ```javascript
@@ -77,8 +86,6 @@ const func = () => {
     console.log('Hello World!')
 }
 ```
-
-
 
 > References:
 - [Source 1](https://twitter.com/csaba_kissi/status/1612086728151519232 "Source 1")

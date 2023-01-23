@@ -1,3 +1,16 @@
+### Table of Contents:
+
+- [Math.abs()](#1-mathabs)
+- [Math.ceil()](#2-mathceil)
+- [Math.floor()](#3-mathfloor)
+- [Math.max()](#4-mathmax)
+- [Math.min()](#5-mathmin)
+- [Math.round()](#6-mathround)
+- [Math.random()](#7-mathrandom)
+- [Math.sqrt()](#8-mathsqrt)
+- [Math.pow()](#9-mathpow)
+- [Math.trunc()](#10-mathtrunc)
+
 #### 1. Math.abs()
 Mengembalikan nilai absolut dari sebuah angka.
 
@@ -87,9 +100,6 @@ console.log(Math.trunc(4.7))
 
 // Output: 4
 ```
-
-
-
 
 > References:
 - [Source 1](https://twitter.com/csaba_kissi/status/1611013698134458368 "Source 1")

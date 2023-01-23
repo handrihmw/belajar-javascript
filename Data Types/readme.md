@@ -1,3 +1,14 @@
+### Table of Contents:
+
+- [String](#1-string)
+- [Number](#2-number)
+- [Boolean](#3-boolean)
+- [Null](#4-null)
+- [Undefined](#5-undefined)
+- [Array](#6-array)
+- [Object](#7-object)
+- [Function](#8-function)
+
 #### 1. String
 Urutan karakter diwakili dengan tanda kutip tunggal atau ganda.
 
@@ -63,9 +74,6 @@ function greet(name) {
 
 greet(John) // Outputs: 'Hello, John!'
 ```
-
-
-
 
 > References:
 - [Source 1](https://twitter.com/csaba_kissi/status/1610636964180508672 "Source 1")

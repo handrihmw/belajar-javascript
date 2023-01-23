@@ -1,13 +1,13 @@
-Table of Contents:
+### Table of Contents:
 
-- [length()](#1-length--)
-- [indexOf()](#2-indexof--)
-- [substring()](#3-substring--)
-- [replace()](#4-replace--)
-- [charAt()](#5-charat--)
-- [concat()](#6-concat--)
-- [includes()](#7-includes--)
-- [endsWith()](#8-endswith--)
+- [length()](#1-length)
+- [indexOf()](#2-indexof)
+- [substring()](#3-substring)
+- [replace()](#4-replace)
+- [charAt()](#5-charat)
+- [concat()](#6-concat)
+- [includes()](#7-includes)
+- [endsWith()](#8-endswith)
 
 #### 1. length()
 Metode `length()` mengembalikan panjang string
@@ -97,9 +97,6 @@ console.log(str.endsWith('orld'));
 
 // Output: true
 ```
-
-
-
 
 > References:
 - [Source 1](https://twitter.com/csaba_kissi/status/1604130799661584386 "Source 1")
