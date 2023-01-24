@@ -40,9 +40,9 @@ Berikut adalah beberapa contoh arrow function:
 
 - [Basic Arrow Function yang tidak menerima argumen apa pun dan memiliki block body.](#1-basic-arrow-function-yang-tidak-menerima-argumen-apa-pun-dan-memiliki-block-body)
 - [Arrow Function yang tidak menerima argumen apa pun dan memiliki pengembalian implisit.](#2-arrow-function-yang-tidak-menerima-argumen-apa-pun-dan-memiliki-pengembalian-implisit)
-- [Arrow function yang mengambil argumen tunggal dan memiliki badan blok dengan pengembalian eksplisit.](#3-arrow-function-yang-mengambil-argumen-tunggal-dan-memiliki-badan-blok-dengan-pengembalian-eksplisit)
+- [Arrow function yang mengambil argumen tunggal dan memiliki block body dengan pengembalian eksplisit.](#3-arrow-function-yang-mengambil-argumen-tunggal-dan-memiliki-badan-blok-dengan-pengembalian-eksplisit)
 - [Arrow Function bergaya blok multi-argumen dengan pengembalian eksplisit.](#4-arrow-function-bergaya-blok-multi-argumen-dengan-pengembalian-eksplisit)
-- [Arrow Function dengan badan blok dan pernyataan log konsol tetapi tanpa argumen.](#5-arrow-function-dengan-badan-blok-dan-pernyataan-log-konsol-tetapi-tanpa-argumen)
+- [Arrow Function dengan block body dan pernyataan console log tetapi tanpa argumen.](#5-arrow-function-dengan-badan-blok-dan-pernyataan-log-konsol-tetapi-tanpa-argumen)
 
 
 #### 1. Basic Arrow Function yang tidak menerima argumen apa pun dan memiliki block body.
@@ -60,7 +60,7 @@ const func = () => {
 // Implicit Return
 const func = () => 'Hello World!'
 ```
-#### 3. Arrow function yang mengambil argumen tunggal dan memiliki badan blok dengan pengembalian eksplisit.
+#### 3. Arrow function yang mengambil argumen tunggal dan memiliki block body dengan pengembalian eksplisit.
 
 ```javascript
 // Single Argument
@@ -78,7 +78,7 @@ const func = (x, y) => {
 }
 ```
 
-#### 5. Arrow Function dengan badan blok dan pernyataan log konsol tetapi tanpa argumen.
+#### 5. Arrow Function dengan block body dan pernyataan console log tetapi tanpa argumen.
 
 ```javascript
 // No Arguments
